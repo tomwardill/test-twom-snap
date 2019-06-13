@@ -4,6 +4,7 @@ summary: A test mostly empty snap
 confinement: strict
 grade: stable
 description: Print out an emoji
+base: core
 
 architectures:
   - amd64
