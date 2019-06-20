@@ -12,6 +12,7 @@ architectures:
 apps:
   twomtest:
     command: echo "☃"
+    autostart: test-twom-snap.desktop
 
 parts:
   empty:
