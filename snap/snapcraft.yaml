@@ -7,7 +7,7 @@ description: Print out an emoji
 base: core
 
 architectures:
-  - amd64
+  - failure
 
 apps:
   twomtest:
@@ -18,5 +18,5 @@ parts:
     plugin: dump
     source: .
     stage:
-      - foo.txt.swp
+      - .foo.txt.swp
 
