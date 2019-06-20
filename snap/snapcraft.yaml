@@ -15,5 +15,8 @@ apps:
 
 parts:
   empty:
-    plugin: nil
+    plugin: dump
+    source: .
+    stage:
+      - foo.txt.swp
 
