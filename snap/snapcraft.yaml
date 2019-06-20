@@ -7,7 +7,7 @@ description: Print out an emoji
 base: core
 
 architectures:
-  - failure
+  - amd64
 
 apps:
   twomtest:
